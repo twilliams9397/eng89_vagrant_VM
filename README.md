@@ -1,4 +1,5 @@
 # Setting up Dev Env
+![MicrosoftTeams-image.png](MicrosoftTeams-image.png)
 ## Installation of Vagrant, VirtualBox and Ruby
 ### Vagrant commands
 - `vagrant up` to launch vm
