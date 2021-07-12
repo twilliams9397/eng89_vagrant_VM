@@ -16,3 +16,4 @@
 - We will install nginx in guest machine/VM/ubuntu 16.04
 - launch default nginx page in host machine's browser
 - to come out of VM `exit`
+- `systemctl status <package>` to verify installation and running of packages
