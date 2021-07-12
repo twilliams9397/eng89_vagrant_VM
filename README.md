@@ -20,3 +20,19 @@
 - `systemctl status <package>` to verify installation and running of packages
 - can use `systemctl` to restart with `restart` and `start` in place of `status`
 - `vagrant plugin install vagrant-hostsupdater` run in host machine GitBash/terminal
+
+
+- Let's automate the tasks we manually did previously
+- create a file (using `sudo nano filename`) called `provision.sh` containing:
+- `sudo apt-get update -y`
+- `sudo apt-get upgrade -y`
+- `sudo apt-get install nginx`
+- `systemctl status nginx`
+- must have `#!/bin/bash` as first line for linux to recognise
+
+
+- one command will run all the above commands from the .sh file
+- to run `provision.sh` we need to give file permissions and make this file executable
+- to change permissions we use `chmod` with required permssion then file name (`+x` for executable)
+- `chmod +x provision.sh`, once executable will be different colour in terminal/GitBash
+- `./filename` 
