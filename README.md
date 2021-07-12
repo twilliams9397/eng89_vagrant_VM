@@ -1,6 +1,7 @@
 # Setting up Dev Env
 ![MicrosoftTeams-image.png](MicrosoftTeams-image.png)
 ## Installation of Vagrant, VirtualBox and Ruby
+- https://github.com/khanmaster/vb_vagrant_installtion for steps
 ### Vagrant commands
 - `vagrant up` to launch vm
 - `vagrant destroy` to delete everything
