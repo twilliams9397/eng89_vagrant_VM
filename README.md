@@ -17,3 +17,4 @@
 - launch default nginx page in host machine's browser
 - to come out of VM `exit`
 - `systemctl status <package>` to verify installation and running of packages
+- can use `systemctl` to restart with `restart` anfd `start` in place of `status`
